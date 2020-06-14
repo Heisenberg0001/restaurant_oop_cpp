@@ -68,25 +68,25 @@ void Chef::display(ostream &out) const {
         << "Chef ID: " << this->emplId << "\n"
        <<"Raw Salary: "<<this->salary<<"\t";
 
-    if(this->chefSpeciality == 'Q')
+    if(this->chefSpeciality == 'Q' || this->chefSpeciality == 'q')
         out<<"Chef speciality: Georgian Cuisine\n";
-    else if(this->chefSpeciality == 'B')
+    else if(this->chefSpeciality == 'B' || this->chefSpeciality == 'b')
         out<<"Chef speciality: British Cuisine\n";
-    else if(this->chefSpeciality == 'S')
+    else if(this->chefSpeciality == 'S' || this->chefSpeciality == 's')
         out<<"Chef speciality: Spanish Cuisine\n";
-    else if(this->chefSpeciality == 'T')
+    else if(this->chefSpeciality == 'T' || this->chefSpeciality == 't')
         out<<"Chef speciality: Thai Cuisine\n";
-    else if(this->chefSpeciality == 'C')
+    else if(this->chefSpeciality == 'C' || this->chefSpeciality == 'c')
         out<<"Chef speciality: Chinese Cuisine\n";
-    else if(this->chefSpeciality == 'J')
+    else if(this->chefSpeciality == 'J' || this->chefSpeciality == 'j')
         out<<"Chef speciality: Japanese Cuisine\n";
-    else if(this->chefSpeciality == 'I')
+    else if(this->chefSpeciality == 'I' || this->chefSpeciality == 'i')
         out<<"Chef speciality: Italian Cuisine\n";
-    else if(this->chefSpeciality == 'K')
+    else if(this->chefSpeciality == 'K' || this->chefSpeciality == 'k')
         out<<"Chef speciality: Korean Cuisine\n";
-    else if(this->chefSpeciality == 'G')
+    else if(this->chefSpeciality == 'G' || this->chefSpeciality == 'g')
         out<<"Chef speciality: Greek Cuisine\n";
-    else if(this->chefSpeciality == 'E')
+    else if(this->chefSpeciality == 'E' || this->chefSpeciality == 'e')
         out<<"Chef speciality: Egypt Cuisine\n";
     else
         out<<"Chef speciality: Not yet defined in program !\n";

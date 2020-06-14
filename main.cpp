@@ -135,11 +135,11 @@ int main() {
 
     cout<< "Input Sous-Chef information\n";
 
-    cout<<"Chef Name: \n";
+    cout<<"Sous-Chef Name: \n";
     cin>>name;
-    cout<<"Chef Id: \n";
+    cout<<"Sous-Chef Id: \n";
     cin>>emplId;
-    cout<<"Chef Specialization : \n";
+    cout<<"Sous-Chef Specialization : \n";
     cin>>chefSpecification;
 
     Chef sousChefSec(name, emplId, chefSpecification);
